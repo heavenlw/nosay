@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="detail"/>
+	<Window id="win">
+		<TableView dataCollection="detail" dataFilter="filterFunction" onClick="eventClick">
+			<TableViewRow title="{name}" eid="{id}"/>
+		</TableView>
+	<!-- <View class="container">
+	</View> -->
+	</Window>
+</Alloy>

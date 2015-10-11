@@ -1,0 +1,8 @@
+<Alloy>
+	<Collection src="detail"/>
+	<Window id="local_event">
+		<TableView dataCollection="detail" dataFilter="locationFunction" onClick="LocationClick">
+			<TableViewRow title="{name}" fid="{id}"/>
+		</TableView>
+	</Window>
+</Alloy>
